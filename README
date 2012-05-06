@@ -1,13 +1,8 @@
 # project_euler
 
-FIXME: write description
+Learning clojure using Project Euler problems
 
-## Usage
 
-FIXME: write
-
-## License
-
-Copyright (C) 2012 FIXME
+Copyright (C) 2012 David K. Blackmon
 
 Distributed under the Eclipse Public License, the same as Clojure.
