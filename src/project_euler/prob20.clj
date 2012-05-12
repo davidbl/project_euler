@@ -1,8 +1,10 @@
-(ns project_euler.prob20)
+(ns project_euler.prob20
+  (:require [project_euler.core :as euler]))
 
-;What is the sum of the digits of the number 21000?
+;What is the sum of the digits of the number 100!?
 
 (defn prob20[num]
-  (apply + (map (fn[s] (Integer/parseInt (str s))) (str (apply * (range (bigint 1) (bigint num))))))
-  
+  (euler/sumOfDigits (apply * (range (bigint 1) (bigint num))))
+  )
+
   )
