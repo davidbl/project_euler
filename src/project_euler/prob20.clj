@@ -7,4 +7,6 @@
   (euler/sumOfDigits (apply * (range (bigint 1) (bigint num))))
   )
 
+(defn prob20a[num]
+  (euler/sumOfDigits (apply * (take num (euler/positive-numbers))))
   )
