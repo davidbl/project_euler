@@ -12,3 +12,10 @@
 (defn prob36a[maxVal]
   (apply + (filter both? (range 1 maxVal)))
   )
+
+(def prob36b
+  (comp
+    (partial apply +)
+    (partial filter both?)
+    (partial range 1)
+  ))
